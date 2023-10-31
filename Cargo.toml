@@ -28,16 +28,16 @@ default = []
 use-socketcan = ["socketcan"]
 
 [dependencies]
-byteorder = "1.3"
+byteorder = "1.5"
 encoding = "0.2"
 enum_primitive = "0.1"
 nom = "4.2"
-socketcan = { version = "1.7", optional = true }
+socketcan = { version = "3.2", optional = true }
 
 [dev-dependencies]
-approx = "0.3"
-criterion = "0.3"
-lazy_static = "1.3"
+approx = "0.5"
+criterion = "0.5"
+lazy_static = "1.4"
 
 [package.metadata.docs.rs]
 features = ["use-socketcan"]
